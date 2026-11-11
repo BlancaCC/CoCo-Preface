@@ -1,0 +1,17 @@
+name: coco
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch>=2.1
+  - numpy
+  - pandas
+  - scikit-learn>=1.2
+  - scipy
+  - matplotlib
+  - joblib
+  - pytest
+  - pip
+  - pip:
+      - openml>=0.14

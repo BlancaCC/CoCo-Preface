@@ -1,0 +1,9 @@
+torch>=2.1
+numpy
+pandas
+scikit-learn>=1.2
+scipy
+matplotlib
+joblib
+pytest
+openml>=0.14
