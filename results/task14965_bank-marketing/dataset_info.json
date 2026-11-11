@@ -1,0 +1,26 @@
+{
+  "name": "bank-marketing",
+  "n_raw": 45211,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 45211,
+  "n_num": 7,
+  "n_cat": 9,
+  "n_classes": 2,
+  "class_counts": {
+    "1": 39922,
+    "2": 5289
+  },
+  "d_encoded": 51,
+  "openml_task_id": 14965,
+  "openml_dataset_id": 1461
+}

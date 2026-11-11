@@ -1,0 +1,26 @@
+{
+  "name": "kc1",
+  "n_raw": 2109,
+  "target_candidates": [
+    "defects"
+  ],
+  "target": "defects",
+  "target_nunique": {
+    "defects": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 2109,
+  "n_num": 21,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "False": 1783,
+    "True": 326
+  },
+  "d_encoded": 21,
+  "openml_task_id": 3917,
+  "openml_dataset_id": 1067
+}

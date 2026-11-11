@@ -1,0 +1,28 @@
+{
+  "name": "vehicle",
+  "n_raw": 846,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 4
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 846,
+  "n_num": 18,
+  "n_cat": 0,
+  "n_classes": 4,
+  "class_counts": {
+    "bus": 218,
+    "opel": 212,
+    "saab": 217,
+    "van": 199
+  },
+  "d_encoded": 18,
+  "openml_task_id": 53,
+  "openml_dataset_id": 54
+}

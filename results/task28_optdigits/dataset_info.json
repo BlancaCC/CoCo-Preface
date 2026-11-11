@@ -1,0 +1,37 @@
+{
+  "name": "optdigits",
+  "n_raw": 5620,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 10
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [
+    "input1",
+    "input40"
+  ],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 5620,
+  "n_num": 62,
+  "n_cat": 0,
+  "n_classes": 10,
+  "class_counts": {
+    "0": 554,
+    "1": 571,
+    "2": 557,
+    "3": 572,
+    "4": 568,
+    "5": 558,
+    "6": 558,
+    "7": 566,
+    "8": 554,
+    "9": 562
+  },
+  "d_encoded": 62,
+  "openml_task_id": 28,
+  "openml_dataset_id": 28
+}

@@ -1,0 +1,28 @@
+{
+  "name": "wall-robot-navigation",
+  "n_raw": 5456,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 4
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 5456,
+  "n_num": 24,
+  "n_cat": 0,
+  "n_classes": 4,
+  "class_counts": {
+    "1": 2205,
+    "2": 2097,
+    "3": 328,
+    "4": 826
+  },
+  "d_encoded": 24,
+  "openml_task_id": 9960,
+  "openml_dataset_id": 1497
+}

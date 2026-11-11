@@ -1,0 +1,26 @@
+{
+  "name": "PhishingWebsites",
+  "n_raw": 11055,
+  "target_candidates": [
+    "Result"
+  ],
+  "target": "Result",
+  "target_nunique": {
+    "Result": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 11055,
+  "n_num": 0,
+  "n_cat": 30,
+  "n_classes": 2,
+  "class_counts": {
+    "-1": 4898,
+    "1": 6157
+  },
+  "d_encoded": 68,
+  "openml_task_id": 14952,
+  "openml_dataset_id": 4534
+}

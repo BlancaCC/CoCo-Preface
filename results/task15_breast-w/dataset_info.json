@@ -1,0 +1,26 @@
+{
+  "name": "breast-w",
+  "n_raw": 699,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 16,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 683,
+  "n_num": 9,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "benign": 444,
+    "malignant": 239
+  },
+  "d_encoded": 9,
+  "openml_task_id": 15,
+  "openml_dataset_id": 15
+}

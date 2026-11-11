@@ -1,0 +1,35 @@
+{
+  "name": "vowel",
+  "n_raw": 990,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 11
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 990,
+  "n_num": 10,
+  "n_cat": 2,
+  "n_classes": 11,
+  "class_counts": {
+    "hAd": 90,
+    "hEd": 90,
+    "hId": 90,
+    "hOd": 90,
+    "hUd": 90,
+    "hYd": 90,
+    "had": 90,
+    "hed": 90,
+    "hid": 90,
+    "hod": 90,
+    "hud": 90
+  },
+  "d_encoded": 27,
+  "openml_task_id": 3022,
+  "openml_dataset_id": 307
+}

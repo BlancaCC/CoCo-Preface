@@ -1,0 +1,26 @@
+{
+  "name": "electricity",
+  "n_raw": 45312,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 45312,
+  "n_num": 7,
+  "n_cat": 1,
+  "n_classes": 2,
+  "class_counts": {
+    "DOWN": 26075,
+    "UP": 19237
+  },
+  "d_encoded": 14,
+  "openml_task_id": 219,
+  "openml_dataset_id": 151
+}

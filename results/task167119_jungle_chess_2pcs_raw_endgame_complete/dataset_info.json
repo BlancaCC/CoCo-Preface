@@ -1,0 +1,27 @@
+{
+  "name": "jungle_chess_2pcs_raw_endgame_complete",
+  "n_raw": 44819,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 44819,
+  "n_num": 6,
+  "n_cat": 0,
+  "n_classes": 3,
+  "class_counts": {
+    "b": 17422,
+    "d": 4335,
+    "w": 23062
+  },
+  "d_encoded": 6,
+  "openml_task_id": 167119,
+  "openml_dataset_id": 41027
+}

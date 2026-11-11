@@ -1,0 +1,26 @@
+{
+  "name": "phoneme",
+  "n_raw": 5404,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 5404,
+  "n_num": 5,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "1": 3818,
+    "2": 1586
+  },
+  "d_encoded": 5,
+  "openml_task_id": 9952,
+  "openml_dataset_id": 1489
+}

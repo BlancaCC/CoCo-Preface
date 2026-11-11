@@ -1,0 +1,38 @@
+{
+  "name": "anneal",
+  "n_raw": 898,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 5
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [
+    "product-type",
+    "m",
+    "marvi",
+    "corr",
+    "jurofm",
+    "s",
+    "p"
+  ],
+  "dropped_rare_classes": [
+    "1"
+  ],
+  "n_dropped_rare": 8,
+  "n": 890,
+  "n_num": 6,
+  "n_cat": 25,
+  "n_classes": 4,
+  "class_counts": {
+    "2": 99,
+    "3": 684,
+    "5": 67,
+    "U": 40
+  },
+  "d_encoded": 75,
+  "openml_task_id": 61,
+  "openml_dataset_id": 1
+}

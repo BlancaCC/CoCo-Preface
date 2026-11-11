@@ -1,0 +1,29 @@
+{
+  "name": "eucalyptus",
+  "n_raw": 736,
+  "target_candidates": [
+    "Utility"
+  ],
+  "target": "Utility",
+  "target_nunique": {
+    "Utility": 5
+  },
+  "n_dropped_missing": 95,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 641,
+  "n_num": 14,
+  "n_cat": 5,
+  "n_classes": 5,
+  "class_counts": {
+    "average": 128,
+    "best": 98,
+    "good": 203,
+    "low": 102,
+    "none": 110
+  },
+  "d_encoded": 78,
+  "openml_task_id": 2079,
+  "openml_dataset_id": 188
+}

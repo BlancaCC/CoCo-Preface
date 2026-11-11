@@ -1,0 +1,27 @@
+{
+  "name": "dna",
+  "n_raw": 3186,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 3186,
+  "n_num": 0,
+  "n_cat": 180,
+  "n_classes": 3,
+  "class_counts": {
+    "1": 767,
+    "2": 765,
+    "3": 1654
+  },
+  "d_encoded": 360,
+  "openml_task_id": 167140,
+  "openml_dataset_id": 40670
+}

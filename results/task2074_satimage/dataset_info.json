@@ -1,0 +1,30 @@
+{
+  "name": "satimage",
+  "n_raw": 6430,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 6
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 6430,
+  "n_num": 36,
+  "n_cat": 0,
+  "n_classes": 6,
+  "class_counts": {
+    "1.": 1531,
+    "2.": 703,
+    "3.": 1356,
+    "4.": 625,
+    "5.": 707,
+    "7.": 1508
+  },
+  "d_encoded": 36,
+  "openml_task_id": 2074,
+  "openml_dataset_id": 182
+}

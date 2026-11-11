@@ -1,0 +1,31 @@
+{
+  "name": "steel-plates-fault",
+  "n_raw": 1941,
+  "target_candidates": [
+    "target"
+  ],
+  "target": "target",
+  "target_nunique": {
+    "target": 7
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1941,
+  "n_num": 27,
+  "n_cat": 0,
+  "n_classes": 7,
+  "class_counts": {
+    "Bumps": 402,
+    "Dirtiness": 55,
+    "K_Scratch": 391,
+    "Other_Faults": 673,
+    "Pastry": 158,
+    "Stains": 72,
+    "Z_Scratch": 190
+  },
+  "d_encoded": 27,
+  "openml_task_id": 146817,
+  "openml_dataset_id": 40982
+}

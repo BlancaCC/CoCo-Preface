@@ -1,0 +1,26 @@
+{
+  "name": "tic-tac-toe",
+  "n_raw": 958,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 958,
+  "n_num": 0,
+  "n_cat": 9,
+  "n_classes": 2,
+  "class_counts": {
+    "negative": 332,
+    "positive": 626
+  },
+  "d_encoded": 27,
+  "openml_task_id": 49,
+  "openml_dataset_id": 50
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cnae-9",
+  "n_raw": 1080,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 9
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1080,
+  "n_num": 856,
+  "n_cat": 0,
+  "n_classes": 9,
+  "class_counts": {
+    "1": 120,
+    "2": 120,
+    "3": 120,
+    "4": 120,
+    "5": 120,
+    "6": 120,
+    "7": 120,
+    "8": 120,
+    "9": 120
+  },
+  "d_encoded": 856,
+  "openml_task_id": 9981,
+  "openml_dataset_id": 1468
+}

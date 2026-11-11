@@ -1,0 +1,27 @@
+{
+  "name": "balance-scale",
+  "n_raw": 625,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 625,
+  "n_num": 4,
+  "n_cat": 0,
+  "n_classes": 3,
+  "class_counts": {
+    "B": 49,
+    "L": 288,
+    "R": 288
+  },
+  "d_encoded": 4,
+  "openml_task_id": 11,
+  "openml_dataset_id": 11
+}

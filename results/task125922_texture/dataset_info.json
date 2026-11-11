@@ -1,0 +1,35 @@
+{
+  "name": "texture",
+  "n_raw": 5500,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 11
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 5500,
+  "n_num": 40,
+  "n_cat": 0,
+  "n_classes": 11,
+  "class_counts": {
+    "1": 500,
+    "10": 500,
+    "11": 500,
+    "2": 500,
+    "3": 500,
+    "4": 500,
+    "5": 500,
+    "6": 500,
+    "7": 500,
+    "8": 500,
+    "9": 500
+  },
+  "d_encoded": 40,
+  "openml_task_id": 125922,
+  "openml_dataset_id": 40499
+}

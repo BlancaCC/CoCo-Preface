@@ -1,0 +1,31 @@
+{
+  "name": "segment",
+  "n_raw": 2310,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 7
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 2310,
+  "n_num": 16,
+  "n_cat": 0,
+  "n_classes": 7,
+  "class_counts": {
+    "brickface": 330,
+    "cement": 330,
+    "foliage": 330,
+    "grass": 330,
+    "path": 330,
+    "sky": 330,
+    "window": 330
+  },
+  "d_encoded": 16,
+  "openml_task_id": 146822,
+  "openml_dataset_id": 40984
+}

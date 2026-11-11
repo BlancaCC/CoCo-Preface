@@ -1,0 +1,26 @@
+{
+  "name": "jm1",
+  "n_raw": 10885,
+  "target_candidates": [
+    "defects"
+  ],
+  "target": "defects",
+  "target_nunique": {
+    "defects": 2
+  },
+  "n_dropped_missing": 5,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 10880,
+  "n_num": 21,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "False": 8777,
+    "True": 2103
+  },
+  "d_encoded": 21,
+  "openml_task_id": 3904,
+  "openml_dataset_id": 1053
+}

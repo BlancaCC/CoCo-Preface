@@ -1,0 +1,26 @@
+{
+  "name": "kc2",
+  "n_raw": 522,
+  "target_candidates": [
+    "problems"
+  ],
+  "target": "problems",
+  "target_nunique": {
+    "problems": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 522,
+  "n_num": 21,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "no": 415,
+    "yes": 107
+  },
+  "d_encoded": 21,
+  "openml_task_id": 3913,
+  "openml_dataset_id": 1063
+}

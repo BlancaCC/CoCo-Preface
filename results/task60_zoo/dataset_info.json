@@ -1,0 +1,32 @@
+{
+  "name": "zoo",
+  "n_raw": 101,
+  "target_candidates": [
+    "type"
+  ],
+  "target": "type",
+  "target_nunique": {
+    "type": 7
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [
+    "insect",
+    "reptile",
+    "amphibian"
+  ],
+  "n_dropped_rare": 17,
+  "n": 84,
+  "n_num": 1,
+  "n_cat": 15,
+  "n_classes": 4,
+  "class_counts": {
+    "bird": 20,
+    "fish": 13,
+    "invertebrate": 10,
+    "mammal": 41
+  },
+  "d_encoded": 31,
+  "openml_task_id": 60,
+  "openml_dataset_id": 62
+}

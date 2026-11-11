@@ -1,0 +1,50 @@
+{
+  "name": "isolet",
+  "n_raw": 7797,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 26
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 7797,
+  "n_num": 617,
+  "n_cat": 0,
+  "n_classes": 26,
+  "class_counts": {
+    "1": 300,
+    "10": 300,
+    "11": 300,
+    "12": 300,
+    "13": 299,
+    "14": 300,
+    "15": 300,
+    "16": 300,
+    "17": 300,
+    "18": 300,
+    "19": 300,
+    "2": 300,
+    "20": 300,
+    "21": 300,
+    "22": 300,
+    "23": 300,
+    "24": 300,
+    "25": 300,
+    "26": 300,
+    "3": 300,
+    "4": 300,
+    "5": 300,
+    "6": 298,
+    "7": 300,
+    "8": 300,
+    "9": 300
+  },
+  "d_encoded": 617,
+  "openml_task_id": 3481,
+  "openml_dataset_id": 300
+}

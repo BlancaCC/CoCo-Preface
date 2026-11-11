@@ -1,0 +1,36 @@
+{
+  "methods": [
+    "ce",
+    "supcon",
+    "coco",
+    "dr"
+  ],
+  "lrs": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "weight_decays": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "n_outer": 10,
+  "n_inner": 5,
+  "seed": 0,
+  "select_metric": "balanced_accuracy",
+  "train": {
+    "epochs": 100,
+    "patience": 5,
+    "batch_size": 32,
+    "es_frac": 0.1,
+    "es_metric": "balanced_accuracy",
+    "supcon_temperature": 0.07,
+    "pred_temperature": 0.1,
+    "relu_after_n2": true,
+    "device": "cpu"
+  },
+  "torch": "2.7.1"
+}

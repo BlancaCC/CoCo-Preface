@@ -1,0 +1,28 @@
+{
+  "name": "car",
+  "n_raw": 1728,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 4
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1728,
+  "n_num": 0,
+  "n_cat": 6,
+  "n_classes": 4,
+  "class_counts": {
+    "acc": 384,
+    "good": 69,
+    "unacc": 1210,
+    "vgood": 65
+  },
+  "d_encoded": 21,
+  "openml_task_id": 146821,
+  "openml_dataset_id": 40975
+}

@@ -1,0 +1,27 @@
+{
+  "name": "cmc",
+  "n_raw": 1473,
+  "target_candidates": [
+    "Contraceptive_method_used"
+  ],
+  "target": "Contraceptive_method_used",
+  "target_nunique": {
+    "Contraceptive_method_used": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1473,
+  "n_num": 2,
+  "n_cat": 7,
+  "n_classes": 3,
+  "class_counts": {
+    "1": 629,
+    "2": 333,
+    "3": 511
+  },
+  "d_encoded": 24,
+  "openml_task_id": 23,
+  "openml_dataset_id": 23
+}

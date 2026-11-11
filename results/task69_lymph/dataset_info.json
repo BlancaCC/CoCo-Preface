@@ -1,0 +1,29 @@
+{
+  "name": "lymph",
+  "n_raw": 148,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 4
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [
+    "fibrosis",
+    "normal"
+  ],
+  "n_dropped_rare": 6,
+  "n": 142,
+  "n_num": 3,
+  "n_cat": 15,
+  "n_classes": 2,
+  "class_counts": {
+    "malign_lymph": 61,
+    "metastases": 81
+  },
+  "d_encoded": 46,
+  "openml_task_id": 69,
+  "openml_dataset_id": 10
+}

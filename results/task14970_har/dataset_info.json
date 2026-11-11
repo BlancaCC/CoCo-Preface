@@ -1,0 +1,30 @@
+{
+  "name": "har",
+  "n_raw": 10299,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 6
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 10299,
+  "n_num": 561,
+  "n_cat": 0,
+  "n_classes": 6,
+  "class_counts": {
+    "1": 1722,
+    "2": 1544,
+    "3": 1406,
+    "4": 1777,
+    "5": 1906,
+    "6": 1944
+  },
+  "d_encoded": 561,
+  "openml_task_id": 14970,
+  "openml_dataset_id": 1478
+}

@@ -1,0 +1,26 @@
+{
+  "name": "pc4",
+  "n_raw": 1458,
+  "target_candidates": [
+    "c"
+  ],
+  "target": "c",
+  "target_nunique": {
+    "c": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1458,
+  "n_num": 37,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "False": 1280,
+    "True": 178
+  },
+  "d_encoded": 37,
+  "openml_task_id": 3902,
+  "openml_dataset_id": 1049
+}

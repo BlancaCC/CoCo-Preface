@@ -1,0 +1,26 @@
+{
+  "name": "credit-approval",
+  "n_raw": 690,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 2
+  },
+  "n_dropped_missing": 37,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 653,
+  "n_num": 6,
+  "n_cat": 9,
+  "n_classes": 2,
+  "class_counts": {
+    "+": 296,
+    "-": 357
+  },
+  "d_encoded": 46,
+  "openml_task_id": 29,
+  "openml_dataset_id": 29
+}

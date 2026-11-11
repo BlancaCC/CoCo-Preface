@@ -1,0 +1,29 @@
+{
+  "name": "cylinder-bands",
+  "n_raw": 540,
+  "target_candidates": [
+    "band_type"
+  ],
+  "target": "band_type",
+  "target_nunique": {
+    "band_type": 2
+  },
+  "n_dropped_missing": 263,
+  "dropped_constant_cols": [
+    "ink_color",
+    "cylinder_division"
+  ],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 277,
+  "n_num": 18,
+  "n_cat": 17,
+  "n_classes": 2,
+  "class_counts": {
+    "band": 99,
+    "noband": 178
+  },
+  "d_encoded": 131,
+  "openml_task_id": 14954,
+  "openml_dataset_id": 6332
+}

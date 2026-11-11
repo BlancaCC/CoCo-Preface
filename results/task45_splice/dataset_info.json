@@ -1,0 +1,27 @@
+{
+  "name": "splice",
+  "n_raw": 3190,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 3190,
+  "n_num": 0,
+  "n_cat": 60,
+  "n_classes": 3,
+  "class_counts": {
+    "EI": 767,
+    "IE": 768,
+    "N": 1655
+  },
+  "d_encoded": 287,
+  "openml_task_id": 45,
+  "openml_dataset_id": 46
+}

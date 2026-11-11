@@ -1,0 +1,26 @@
+{
+  "name": "climate-model-simulation-crashes",
+  "n_raw": 540,
+  "target_candidates": [
+    "outcome"
+  ],
+  "target": "outcome",
+  "target_nunique": {
+    "outcome": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 540,
+  "n_num": 18,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "0": 46,
+    "1": 494
+  },
+  "d_encoded": 18,
+  "openml_task_id": 146819,
+  "openml_dataset_id": 40994
+}

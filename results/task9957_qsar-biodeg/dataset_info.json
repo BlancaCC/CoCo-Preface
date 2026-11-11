@@ -1,0 +1,26 @@
+{
+  "name": "qsar-biodeg",
+  "n_raw": 1055,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 1055,
+  "n_num": 41,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "1": 699,
+    "2": 356
+  },
+  "d_encoded": 41,
+  "openml_task_id": 9957,
+  "openml_dataset_id": 1494
+}

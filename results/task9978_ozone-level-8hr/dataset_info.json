@@ -1,0 +1,26 @@
+{
+  "name": "ozone-level-8hr",
+  "n_raw": 2534,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 2534,
+  "n_num": 72,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "1": 2374,
+    "2": 160
+  },
+  "d_encoded": 72,
+  "openml_task_id": 9978,
+  "openml_dataset_id": 1487
+}

@@ -1,0 +1,30 @@
+{
+  "name": "first-order-theorem-proving",
+  "n_raw": 6118,
+  "target_candidates": [
+    "Class"
+  ],
+  "target": "Class",
+  "target_nunique": {
+    "Class": 6
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 6118,
+  "n_num": 51,
+  "n_cat": 0,
+  "n_classes": 6,
+  "class_counts": {
+    "1": 1089,
+    "2": 486,
+    "3": 748,
+    "4": 617,
+    "5": 624,
+    "6": 2554
+  },
+  "d_encoded": 51,
+  "openml_task_id": 9985,
+  "openml_dataset_id": 1475
+}

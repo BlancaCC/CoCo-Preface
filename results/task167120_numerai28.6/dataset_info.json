@@ -1,0 +1,26 @@
+{
+  "name": "numerai28.6",
+  "n_raw": 96320,
+  "target_candidates": [
+    "attribute_21"
+  ],
+  "target": "attribute_21",
+  "target_nunique": {
+    "attribute_21": 2
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 96320,
+  "n_num": 21,
+  "n_cat": 0,
+  "n_classes": 2,
+  "class_counts": {
+    "0": 47662,
+    "1": 48658
+  },
+  "d_encoded": 21,
+  "openml_task_id": 167120,
+  "openml_dataset_id": 23517
+}

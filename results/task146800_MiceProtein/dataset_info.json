@@ -1,0 +1,32 @@
+{
+  "name": "MiceProtein",
+  "n_raw": 1080,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 8
+  },
+  "n_dropped_missing": 528,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 552,
+  "n_num": 77,
+  "n_cat": 0,
+  "n_classes": 8,
+  "class_counts": {
+    "c-CS-m": 45,
+    "c-CS-s": 75,
+    "c-SC-m": 60,
+    "c-SC-s": 75,
+    "t-CS-m": 90,
+    "t-CS-s": 75,
+    "t-SC-m": 60,
+    "t-SC-s": 72
+  },
+  "d_encoded": 77,
+  "openml_task_id": 146800,
+  "openml_dataset_id": 40966
+}

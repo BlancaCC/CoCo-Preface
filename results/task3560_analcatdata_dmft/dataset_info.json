@@ -1,0 +1,30 @@
+{
+  "name": "analcatdata_dmft",
+  "n_raw": 797,
+  "target_candidates": [
+    "Prevention"
+  ],
+  "target": "Prevention",
+  "target_nunique": {
+    "Prevention": 6
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 797,
+  "n_num": 0,
+  "n_cat": 4,
+  "n_classes": 6,
+  "class_counts": {
+    "All_methods": 127,
+    "Diet_enrichment": 132,
+    "Health_education": 124,
+    "Mouthwash": 155,
+    "None": 136,
+    "Oral_hygiene": 123
+  },
+  "d_encoded": 21,
+  "openml_task_id": 3560,
+  "openml_dataset_id": 469
+}

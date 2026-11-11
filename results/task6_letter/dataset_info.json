@@ -1,0 +1,50 @@
+{
+  "name": "letter",
+  "n_raw": 20000,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 26
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 20000,
+  "n_num": 16,
+  "n_cat": 0,
+  "n_classes": 26,
+  "class_counts": {
+    "A": 789,
+    "B": 766,
+    "C": 736,
+    "D": 805,
+    "E": 768,
+    "F": 775,
+    "G": 773,
+    "H": 734,
+    "I": 755,
+    "J": 747,
+    "K": 739,
+    "L": 761,
+    "M": 792,
+    "N": 783,
+    "O": 753,
+    "P": 803,
+    "Q": 783,
+    "R": 758,
+    "S": 748,
+    "T": 796,
+    "U": 813,
+    "V": 764,
+    "W": 752,
+    "X": 787,
+    "Y": 786,
+    "Z": 734
+  },
+  "d_encoded": 16,
+  "openml_task_id": 6,
+  "openml_dataset_id": 6
+}

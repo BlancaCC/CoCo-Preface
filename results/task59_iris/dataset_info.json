@@ -1,0 +1,27 @@
+{
+  "name": "iris",
+  "n_raw": 150,
+  "target_candidates": [
+    "class"
+  ],
+  "target": "class",
+  "target_nunique": {
+    "class": 3
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 150,
+  "n_num": 4,
+  "n_cat": 0,
+  "n_classes": 3,
+  "class_counts": {
+    "Iris-setosa": 50,
+    "Iris-versicolor": 50,
+    "Iris-virginica": 50
+  },
+  "d_encoded": 4,
+  "openml_task_id": 59,
+  "openml_dataset_id": 61
+}

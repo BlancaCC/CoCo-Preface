@@ -1,0 +1,29 @@
+{
+  "name": "GesturePhaseSegmentationProcessed",
+  "n_raw": 9873,
+  "target_candidates": [
+    "Phase"
+  ],
+  "target": "Phase",
+  "target_nunique": {
+    "Phase": 5
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 9873,
+  "n_num": 32,
+  "n_cat": 0,
+  "n_classes": 5,
+  "class_counts": {
+    "D": 2741,
+    "H": 998,
+    "P": 2097,
+    "R": 1087,
+    "S": 2950
+  },
+  "d_encoded": 32,
+  "openml_task_id": 14969,
+  "openml_dataset_id": 4538
+}

@@ -1,0 +1,28 @@
+{
+  "name": "analcatdata_authorship",
+  "n_raw": 841,
+  "target_candidates": [
+    "Author"
+  ],
+  "target": "Author",
+  "target_nunique": {
+    "Author": 4
+  },
+  "n_dropped_missing": 0,
+  "dropped_constant_cols": [],
+  "dropped_rare_classes": [],
+  "n_dropped_rare": 0,
+  "n": 841,
+  "n_num": 70,
+  "n_cat": 0,
+  "n_classes": 4,
+  "class_counts": {
+    "Austen": 317,
+    "London": 296,
+    "Milton": 55,
+    "Shakespeare": 173
+  },
+  "d_encoded": 70,
+  "openml_task_id": 3549,
+  "openml_dataset_id": 458
+}
