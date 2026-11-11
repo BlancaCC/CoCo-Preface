@@ -16,17 +16,41 @@ embedding, and a sample is classified by the nearest training class mean.
 
 ## The CoCo loss
 
-For two independently shuffled batches $(z_i, y_i)_{i=1}^{B}$ and $(z'_j, y'_j)_{j=1}^{B}$
-of raw (un-normalised) network outputs:
+For two independently shuffled batches $(z_i, y_i)_{i=1}^{B}$ and for raw (un-normalised) network outputs:
+$(z’_j, y’_j)_{j=1}^{B}$
 
-$
-\mathcal{L}_{\text{CoCo}} =
-\frac{1}{B^2}\sum_{i,j}\big(\langle z_i, z'_j\rangle - g(y_i, y'_j)\big)^2
-+ \frac{1}{B}\sum_{i}\big(\lVert z_i\rVert^2 - 1\big)^2
-+ \frac{1}{B}\sum_{j}\big(\lVert z'_j\rVert^2 - 1\big)^2,
-\qquad
-g(a,b)=\begin{cases}1 & a=b\\ -\tfrac{1}{C-1} & a\neq b\end{cases}
-$
+The CoCo loss is defined as:
+
+$$
+\mathcal{L}{\text{CoCo}} =
+\frac{1}{B^2}
+\sum{i,j}
+\left(
+\langle z_i, z’_j \rangle - g(y_i, y’_j)
+\right)^2
++
+\frac{1}{B}
+\sum_i
+\left(
+\lVert z_i \rVert^2 - 1
+\right)^2
++
+\frac{1}{B}
+\sum_j
+\left(
+\lVert z’_j \rVert^2 - 1
+\right)^2
+$$
+
+where
+
+$$
+g(a,b) =
+\begin{cases}
+1 & \text{if } a=b, \\
+-\frac{1}{C-1} & \text{if } a\neq b.
+\end{cases}
+$$
 
 At the optimum the class embeddings form a simplex ETF, and the prediction rule
 $\hat y(x) = \arg\max_k \langle h(x), s_k\rangle$, with $s_k$ the mean training
