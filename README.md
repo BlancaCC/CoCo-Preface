@@ -4,7 +4,7 @@ Code, experiments and statistical analysis for the paper
 
 
 > **Collapsed and Contrasted Loss for Learning Optimally Separated Class Representations**
-> Blanca Cano-Camarero, Ángela Fernández Pascual, José R. Dorronsoro — Departamento de ingeniería informática UAM 
+> Blanca Cano-Camarero, Ángela Fernández Pascual and José R. Dorronsoro — Departamento de ingeniería informática UAM 
 > Submitted to ESANN 2027 (European Symposium on Artificial Neural Networks,
 > Computational Intelligence and Machine Learning).
 
@@ -19,14 +19,14 @@ embedding, and a sample is classified by the nearest training class mean.
 For two independently shuffled batches $(z_i, y_i)_{i=1}^{B}$ and $(z'_j, y'_j)_{j=1}^{B}$
 of raw (un-normalised) network outputs:
 
-$$
+$
 \mathcal{L}_{\text{CoCo}} =
 \frac{1}{B^2}\sum_{i,j}\big(\langle z_i, z'_j\rangle - g(y_i, y'_j)\big)^2
 + \frac{1}{B}\sum_{i}\big(\lVert z_i\rVert^2 - 1\big)^2
 + \frac{1}{B}\sum_{j}\big(\lVert z'_j\rVert^2 - 1\big)^2,
 \qquad
 g(a,b)=\begin{cases}1 & a=b\\ -\tfrac{1}{C-1} & a\neq b\end{cases}
-$$
+$
 
 At the optimum the class embeddings form a simplex ETF, and the prediction rule
 $\hat y(x) = \arg\max_k \langle h(x), s_k\rangle$, with $s_k$ the mean training
@@ -148,9 +148,9 @@ See [`results/analysis/report.md`](results/analysis/report.md) for the statistic
 
 ```bibtex
 @inproceedings{coco2027,
-  title     = {<PAPER TITLE>},
-  author    = {<AUTHOR 1> and <AUTHOR 2>},
-  booktitle = {Proceedings of the European Symposium on Artificial Neural Networks,
+  title     = {Collapsed and Contrasted Loss for Learning Optimally Separated Class Representations},
+  author    = {Blanca Cano-Camarero, Ángela Fernández Pascual, José R. Dorronsoro},
+  booktitle = {Submitted to the European Symposium on Artificial Neural Networks,
                Computational Intelligence and Machine Learning (ESANN)},
   year      = {2027}
 }
